@@ -2,7 +2,7 @@
 contiene le seguenti aree a centro-pagina:
 - un’area di welcome dove inserire un piccolo sunto su chi siamo, cosa facciamo e a cosa serve il sito;
 - un’area con le ultime news (sarà visualizzato in pratica l’ultimo blog-post in ordine cronologico avente come etichetta “news”- vedi “**Blog minimale**” per saperne di più);
-- se ti viene in mente qualcos’altro di utile, fai pure; dai anche un’occhiata a questa programmers community, ci bazzicavo in passato e devo dire che è molto carina e ben fatta.
+- se ti viene in mente qualcos’altro di utile, fai pure; dai anche un’occhiata a questa [community](http://www.pierotofy.it/), ci bazzicavo in passato e devo dire che è molto carina e ben fatta.
 
 ## Blog minimale
 Implementate solo la visualizzazione dei vari post, mi va bene anche uno sotto l’altro mettendo in alto il più recente (eventualmente potete fare che scorrendo la pagina verso il basso si caricano i post più vecchi in modo dinamico). L’elenco dei post deve offrire, per ogni post, solo una sua sintesi droppata; per leggere il post completo occorre cliccare sul titolo: si aprirà una pagina nuova con l’articolo completo. Il contenuto lo scriverò io manualmente inserendo una riga nella tabella apposita che creerete per MySQL. La tabella dovrà contenere: **data**, **immagine**, **titolo** (max 100 chars), **contenuto** (max 5000 chars), **elencoTag** (max 100 chars). Se riuscite a trovare un parser di markdown alla BB (tipo [b][/b], [i][/i], [url=], [img][/img], [color=][/color], ecc...) scriverò il contenuto io stesso usando questa sintassi, altrimenti posso usare HTML puro (tanto voi dovete solo visualizzare, quindi non c’è rischio di XSS o query injection dall’esterno).  
